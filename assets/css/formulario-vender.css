@@ -1,0 +1,104 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: rgb(27, 27, 27);
+}
+
+#logogov img{
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    opacity: 80%;
+    z-index: 1;
+}
+
+img{
+    position: fixed;
+  width: 100%;
+  height: 100vh;
+  opacity: 90%;
+
+}
+
+h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+#lista1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    opacity: 85%;
+    
+}
+
+
+form {
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(201, 228, 210);
+    margin-top: 15%;
+    
+}
+
+.tipo-produto>input{
+    width: 170px;
+    height: 25px;
+}
+
+.preenchimento-kg {
+    display: flex;
+    gap: 4px;
+}
+
+.colheita>input{
+    width: 168px;
+    height: 25px;
+}
+
+.validade>input{
+    width: 162px;
+    height: 25px;
+    }
+
+.quantidade>input{
+   width: 104px;
+   height: 25px;
+}
+
+.preco>input {
+    width: 80px;
+    height: 25px;
+}
+
+button{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 4px;
+    cursor: pointer;
+    width: 100px;
+    align-self: center;
+    background-color: rgb(231, 238, 231);
+    border-color: rgb(204, 207, 207);
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}

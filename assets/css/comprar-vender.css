@@ -1,0 +1,67 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logogov img{
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    opacity: 80%;
+    z-index: 1;
+}
+
+.botao-comprar{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    z-index: 1;
+
+        
+}
+
+.botao-vender{
+    position: fixed;
+    top: 35%;
+    left: 74%;
+    z-index: 1;
+}
+
+button{
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    width: 170px;
+    height: 40px;
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(218, 218, 215);
+    border: 1px solid #fff;
+    color: rgb(146, 163, 137);
+}
+
+button:hover{
+    background-color: rgb(159, 209, 180);
+    color: rgb(238, 243, 241);
+    border: 1px solid rgb(146, 194, 137);
+}
+
+
+
+img{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    opacity: 70%;
+}

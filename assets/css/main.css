@@ -1,0 +1,96 @@
+#fundo img{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    opacity: 70%;
+}
+
+#logo img{
+    position: fixed;
+    width: 75px;
+    top: 30%;
+    left: 58%;
+}
+
+#logogov img{
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    opacity: 80%;
+    z-index: 1;
+}
+
+h1{
+    position: fixed;
+    font-size: 60px;
+    top: 261px;
+    left: 820px;
+    opacity: 80%;
+}
+
+p{
+    position: fixed;
+    font-size: 28px;
+    top: 30%;
+    left: 51%;
+    padding: 9%;
+    word-spacing: 8px;
+    opacity: 80%;
+}
+
+button{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 4px;
+    cursor: pointer;
+    width: 100px;
+    align-self: center;
+    background-color: rgb(183, 216, 190);
+    border-color: rgb(204, 207, 207);
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+#entrar{
+    position: fixed;
+    top: 68%;
+    left: 60%;   
+}
+
+#cadastre-se{
+    position: fixed;
+    top: 68%;
+    left: 71%;
+}
+
+#saiba-mais{
+    position: fixed;
+    top: 68%;
+    left: 82%;
+}
+
+
+
+  
+    
+    
+
+    
+   
+    
+    
+
+
+
+
